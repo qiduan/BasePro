@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="LoadingSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Label id="lbLoad" verticalCenter="188" horizontalCenter="1" textColor="0xF3BB13" bold="true" text="0%"/>
-	<e:Image source="load_img_002_png" verticalCenter="150.5" horizontalCenter="0.5"/>
-	<e:Image id="spLoadFrg" source="load_img_003_png" x="236" y="464" scale9Grid="5,5,14,3" width="0"/>
-</e:Skin>
