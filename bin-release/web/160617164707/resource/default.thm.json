@@ -1,0 +1,32 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+    "eui.Panel": "resource/eui_skins/PanelSkin.exml",
+    "eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+    "eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/skins/scene/LoadingSceneSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"LoadingSceneSkin\" width=\"1136\" height=\"640\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Label id=\"lbLoad\" verticalCenter=\"188\" horizontalCenter=\"1\" textColor=\"0xF3BB13\" bold=\"true\" text=\"0%\"/>\n\t<e:Image source=\"load_img_002_png\" verticalCenter=\"150.5\" horizontalCenter=\"0.5\"/>\n\t<e:Image id=\"spLoadFrg\" source=\"load_img_003_png\" x=\"236\" y=\"464\" scale9Grid=\"5,5,14,3\" width=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/scene/LoginSceneSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"LoginSceneSkin\" width=\"1136\" height=\"640\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Label text=\"测试:caishen,123456\" y=\"141\" horizontalCenter=\"0\"/>\n\t<e:Label text=\"用户名:\" x=\"358\" y=\"242\"/>\n\t<e:Label text=\"密码:\" x=\"384\" y=\"335\"/>\n\t<e:Label id=\"lbLogin\" text=\"登录\" x=\"536\" y=\"486\"/>\n\t<e:EditableText id=\"edtUserName\" width=\"378\" height=\"52\" x=\"467\" y=\"233\" verticalAlign=\"middle\" textAlign=\"left\" textColor=\"0xF51212\" prompt=\"请输入用户名\" maxChars=\"11\"/>\n\t<e:EditableText id=\"edtPassword\" x=\"467\" y=\"324\" textColor=\"0xF51212\" textAlign=\"left\" width=\"378\" verticalAlign=\"middle\" height=\"52\" prompt=\"请输入密码\" displayAsPassword=\"true\" maxChars=\"16\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/scene/MainSceneSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"MainSceneSkin\" width=\"1136\" height=\"640\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Group id=\"groupBG\" top=\"0\" bottom=\"0\" left=\"0\" right=\"0\">\n\t\t<e:Image source=\"main_img_001_png\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t</e:Group>\n\t<e:Group id=\"groupUI\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n</e:Skin>"
+    }
+  ]
+}
